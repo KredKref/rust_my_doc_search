@@ -1,0 +1,4 @@
+无法支持win7
+说明：会用到grallvm编译java中的tika库为dll，所以要安装grallvm并配置环境变量
+编译后的libtika_native.dll 依赖window的一些dll库，这些库在win7上不存在，
+所以最终程序即时支持win7，缺少这些动态库也无法在win7上运行。
